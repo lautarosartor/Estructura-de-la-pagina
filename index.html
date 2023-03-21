@@ -4,36 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/274b553a30.js" crossorigin="anonymous"></script>
     <title>Página bien estructurada</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <p>El <b>"header"</b> es un menú donde el usuario tiene todas las opciones
             para navegar por la página. Siempre va de la mano con la barra de
             navegación "nav".</p>
-        <nav>
+        <nav class="nav">
             <p>El <b>"nav"</b> lo que hace es, mandarnos a distintas partes
                 de la página, ejemplo, sección de mi cuenta, privacidad, etc.
                 Todos esos enlaces van a estar en el "nav".</p>
-            <ul>
-                <li><a href="index.html"></a>Inicio</li>
-                <li><a href="https://www.instagram.com/lautysartor/" target="_BLANK">Contacto</a></li>
-                <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
+            <ul class="nav__ul">
+                <li class="nav__li"><i class="fa-solid fa-house"></i><a href="#">Inicio</a></li>
+                <li class="nav__li"><i class="fa-regular fa-face-smile"></i><a href="#">Sobre mi</a></li>
+                <li class="nav__li"><i class="fa-regular fa-circle-user"></i><a href="#">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    <article>
-        <p>El <b>"article"</b> es toda la página entera</p>
+    <main class="main">
+        <p>El <b>"main"</b> o <b>"article"</b> es toda la página entera, pero a su vez, puede dividirse en varios <b>"section"</b>.</p>
         <section>
-            <p>Pero a su vez, puede dividirse en varios <b>"section"</b>.</p>
+            <h2>Bienvenidos</h2>
+            <p>¡Gracias por visitar mi página web!</p>
         </section>
-    </article>
-    <aside>
+        <section>
+            <h2>Acerca de mi</h2>
+            <p><b>Autor:</b> Lautaro Sartor</p>
+            <p><b>Estudia en:</b> UTN - Reconquista, Sta Fe</p>
+        </section>
+        <section>
+            <h2>Contacto</h2>
+            <p><b><a href="https://www.instagram.com/lautysartor/" target="_BLANK">Instagram</a></b></p>
+        </section>
+    </main>
+    <aside class="aside">
         <p>El <b>"aside"</b> es la barra de navegación lateral de la página,
             acá se ponen cosas irrelevantes.</p>
     </aside>
-    <footer>
+    <footer class="footer">
         <p>En el <b>"footer"</b> va el copyright, contacto, etc.</p>
+        <p>Derechos reservados © 2023</p>
     </footer>
 </body>
 </html>
