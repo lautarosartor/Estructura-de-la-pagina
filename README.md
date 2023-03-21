@@ -19,3 +19,11 @@ En el terminal de VS Code ponemos:
 - git fetch origin main:tmp
 - git rebase tmp
 - git push
+
+*Clonar completamente el repositorio*
+(CLICK DERECHO EN LA CARPETA DONDE QUEREMOS GUARDAR LOS ARCHIVOS Y DAR CLICK EN "GIT BASH HERE", Y EN LA CONSOLA PONER)
+- git clone aquiURL
+
+*Descargar unicamente los cambios que hubieron en nuestro repositorio*
+(CLICK DERECHO EN LA CARPETA DONDE QUEREMOS GUARDAR LOS ARCHIVOS Y DAR CLICK EN "GIT BASH HERE", Y EN LA CONSOLA PONER)
+- git pull origin main
