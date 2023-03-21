@@ -2,7 +2,7 @@
 �
 �
 
-Avanzar en carpetas: cd "nombreCarpeta";
+Avanzar en carpetas: cd "nombreCarpeta"
 Volver en carpetas: cd..
 
 Ejemplo de como subir de a un archivo al repositorio de GitHub:
