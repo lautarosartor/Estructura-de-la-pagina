@@ -1,3 +1,58 @@
 * {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Color del header*/
+.header {
+    background-color: #99d0b6;
+}
+
+/*Color de la barra de navegación*/
+.nav {
+    background-color: #c6b29c;
+}
+
+/*Cajas de los iconos de la barra de navegación*/
+.nav__li {
+    display: inline-block;  /*Uno al lado del otro*/
+    padding: 12px;
+    color: #fff;    /*Color de los iconos*/
+}
+
+/*Cuando pasamos el cursor por encima modificamos el color de los iconos*/
+.nav__li:hover {
+    color: #bbb;
+}
+
+/*Links de la barra de navegación*/
+.nav__li a {
+    color: #fff;    /*Color de los links*/
+    text-decoration: none;  /*Quita el subrayado*/
+}
+
+/*Cuando pasamos el cursor por encima modificamos el color del link*/
+.nav__li:hover > a {
+    color: #bbb;
+}
+
+/*Resolucion de los iconos*/
+.nav__li i {
+    box-sizing: border-box;
+    text-align: right;
+    margin-right: 5px;
+}
+
+/*Color del main*/
+.main {
+    background-color: #fc626b;
+}
+
+/*Color del aside*/
+.aside {
+    background-color: #ffecb1;
+}
+
+/*Color del footer*/
+.footer {
+    background-color: #fec969;
 }
